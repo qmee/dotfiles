@@ -7,20 +7,13 @@ alias ips="ifconfig -a | perl -nle'/(\d+\.\d+\.\d+\.\d+)/ && print $1'"
 alias socksoff='networksetup -setsocksfirewallproxystate "Wi-Fi" off'
 alias sockson='networksetup -setsocksfirewallproxy "Wi-Fi" localhost 8080'
 alias tunnel='ssh -D 8080 -C -N'
-alias tnl='sshuttle 0/0 --dns -vvr'
 
 #osx
 alias showfiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
 alias hidefiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
 
-# Crashplan
-alias crashplan-port='ssh -L 4200:localhost:4243'
-
 # File sizes for current directory
 alias ducks='du -cksh *'
-
-# Recursively delete `.DS_Store` files
-alias cleands="find . -name '*.DS_Store' -type f -ls -delete"
 
 # syntax highlighting cat
 alias cat=ccat

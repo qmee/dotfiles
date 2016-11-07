@@ -1,10 +1,10 @@
-= Damon Morgan Dot Files (Heavily influenced by Ryan Bates Dot Files)
+= Qmee Dot Files (Heavily influenced by Ryan Bates Dot Files)
 
 These are config files to set up a system the way I like it.
 
 == Installation
 
-  Installed through https://github.com/damonmorgan/environment
+  Installed through https://github.com/qmee/environment
 
 == Vim
 
